@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html --port 3000 --cache-dir build/cache --open",
+    "start": "parcel index.html --cache-dir build/cache --port 3000 --open",
+    "no-cache": "parcel index.html --port 3000 --no-cache --open",
     "build": "parcel build index.html"
   },
   "author": "",
@@ -13,8 +14,10 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "css-mqpacker": "^7.0.0",
     "parcel-bundler": "^1.9.7",
-    "parcel-plugin-bundle-manifest": "^0.1.3"
+    "parcel-plugin-bundle-manifest": "^0.1.3",
+    "typescript": "^2.9.2"
   },
   "dependencies": {
     "emailjs-com": "^2.2.4",
