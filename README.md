@@ -1,1 +1,3 @@
-# ecommerce
+# E-commerce platform
+
+platform serverless

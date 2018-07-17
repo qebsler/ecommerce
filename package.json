@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html --cache-dir build/cache --port 3000 --open",
+    "start": "parcel index.html --cache-dir cache --port 3000 --open",
     "no-cache": "parcel index.html --port 3000 --no-cache --open",
     "build": "parcel build index.html"
   },
